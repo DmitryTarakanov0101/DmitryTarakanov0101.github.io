@@ -1,2 +1,2 @@
-# TarakanovProekt.gitHub.io
+# Tarakanov Dmitrii
 Мой первый сайт
