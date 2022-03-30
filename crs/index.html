@@ -8,6 +8,8 @@
     <meta property='og:title' content='Это моя первая страница...'>
     
     <title>Тараканов Дмитрий - Веб-разработчик</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -15,7 +17,8 @@
     <header>
        <nav>
            <div class="logo"> Дмитрий Тараканов </div>
-           <div class="menu"><ul>
+           <div class="menu">
+             <ul>
               <li>Обо мне</li>
                <li>Услуги</li>
                <li>Кейсы</li>
@@ -27,36 +30,56 @@
        </nav>
     </header>
     
-    <div class="main"><div class="title__container">
+    <div class="main">
+       <div class="title__container">
+       
         <h1>Привет <br> Я Дмитрий Тараканов</h1>
         <h4>Фулл стек веб-разработчик</h4>
         <input type="subnit" value="Обо мне">
         <input type="subnit" value="Мои работы">
-        <h3>ОБО МНЕ</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante
-facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam commodo nibh. <br>
+        </div>
+    </div>
+         
+         
+        <div class="Im">
+          <div class="title__Im"> <h3>ОБО МНЕ</h3> 
+          
+          <p>
+     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante
+     facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam commodo nibh. 
 
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante
-facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam commodo nibh.</p>
+           
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante
+    facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam commodo nibh.
+                </p>
+       <input type="subnit" value="Скачать резюме">
+            </div>
+       
+        </div>
          
-         <input type="subnit" value="Скачать резюме">
          
-         <h3>ЧТО Я УМЕЮ</h3>
          
-           <div class="inform"><ul>
-              <li>Веб-дизайн</li>
-              <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, nemo.</span>
-               <li>Разработка</li>
-               <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, distinctio!</span>
-               <li>CEO-опимизация</li>
-               <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, a.</span>
-               <li>Маркетинг</li>
-               <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, cupiditate.</span>
+        
+         
+           <div class="inform">
+            <div class="title__inform">
+               <h3>ЧТО Я УМЕЮ</h3>
+             <ul>
+                 <li class="veb">Веб-дизайн</li>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, nemo.</p>
+                 <li>Разработка</li>
+                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, distinctio!</p>
+                 <li>CEO-опимизация</li>
+                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, a.</p>
+                 <li>Маркетинг</li>
+                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, cupiditate.</p>
               
                
            </ul></div>
+    </div>
          
+         <div class="box">
+            <div class="title__box">
           <h3>КЕЙСЫ</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas natus porro, velit suscipit, tempora tenetur.</p>
               
@@ -67,12 +90,15 @@ facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam commod
                 
                 </p>
                <span>https://yandex.ru</span>
-              
+             </div>
+    </div>
           
-    </div></div>
     
 
-     <h2>Расчет стоимости</h2>
+    <div class="prise">
+            <div class="title__prise">
+            
+             <h2>Расчет стоимости</h2>
      
      <h4>ТИП САЙТА</h4>
      
@@ -80,15 +106,19 @@ facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam commod
         
          <form action="=" method="post">
          
-   <p><select size="1" multiple name="variant">
+   <p>
+   <select size="1" multiple name="variant">
     <option disabled>Выберите пункт</option>
     <option value="№">№</option>
     <option selected value="+">+</option>
     <option value="*">*</option>
     <option value="**">**</option>
-   </select></p>
-   
-  
+   </select>
+   </p>
+                </form>
+        </div>
+            
+        </div>
      
      
      
@@ -124,7 +154,7 @@ facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam commod
        
        <h3>НЕМНОГО СТАТИСТИКИ</h3>
          
-           <div class="menu"><ul>
+           <div class="stat"><ul>
               <li><big><b>120</b></big></li>
               <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, nemo.</span>
                <li><big><b>4,600</b></big></li>
